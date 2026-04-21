@@ -1,10 +1,9 @@
 <script type="text/javascript">
-    $(document).ready(function () {
-        $("#closesocialbox").click(function () {
+    $(document).ready(function() {
+        $("#closesocialbox").click(function() {
             $(".social-box").remove();
         });
     });
-
 </script>
 
 <div class="social-box">
@@ -23,7 +22,7 @@
         </a>
     </div>
     <div class="box">
-        <a class="" href="https://www.tiktok.com/@lovethaihome" target="_blank">
+        <a class="" href="https://www.tiktok.com/@era_ladprao101" target="_blank">
             <?= $this->Html->image('social_icon/tiktok.png', []); ?>
         </a>
     </div>
@@ -50,7 +49,7 @@
 
 
     <div class="box">
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FLovethaihomeera&width=100&layout=button&action=like&size=large&show_faces=false&share=false&height=30&appId" width="100" height="30" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>    
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FLovethaihomeera&width=100&layout=button&action=like&size=large&show_faces=false&share=false&height=30&appId" width="100" height="30" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
         <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.facebook.com%2FLovethaihomeera&layout=button&size=large&mobile_iframe=true&width=100&height=30&appId" width="100" height="30" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
     </div>
 </div>
@@ -63,7 +62,7 @@
                 <h4 class="modal-title" id="exampleModalLabel"></h4>
             </div>
             <div class="modal-body">
-                
+
                 <?= $this->Html->image('social_icon/line_qr.jpg', []); ?>
             </div>
 
